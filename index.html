@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="icon" type="image/x-icon" href="https://image.similarpng.com/very-thumbnail/2020/07/Logo-music-3D-icon-on-transparent-background-PNG.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="sidebar__header">
+                <div class="sidebar__logo">
+                    <div class="sidebar__img">
+                        <span>MP3</span>
+                    </div>
+                    <div class="sidebar__heading">
+                        <span>Music play</span>
+                    </div>
+                </div>
+                <div class="btn close-btn">
+                    <i class='bx bxs-chevron-left'></i>
+                </div>
+            </div>
+            <div class="sidebar__menu">
+                <ul class="sidebar__list">
+                    <span class="sidebar__option-text">Menu</span>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">
+                            <i class='bx bx-home-alt' ></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">
+                            <i class='bx bxs-book'></i>
+                            <span>Albums</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">
+                            <i class='bx bxs-user'></i>
+                            <span>Artist</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">
+                            <i class='bx bxs-compass'></i>
+                            <span>Discover</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sidebar__list">
+                    <span class="sidebar__option-text">Playlist</span>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">
+                            <i class='bx bxs-time-five'></i>
+                            <span>Recent</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">
+                            <i class='bx bxs-heart'></i>
+                            <span>Favorites</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">
+                            <i class='bx bx-headphone'></i>
+                            <span>My Pop</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#" class="sidebar__link">
+                            <i class='bx bxs-music'></i>
+                            <span>Hits Update</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar__footer">
+                <div class="sidebar__logout">
+                    <a href="#" class="sidebar__logout-link">
+                        <i class='bx bx-log-out'></i>
+                        <span>Logout</span>
+                    </a>
+                </div>
+                <div class="sidebar__mode">
+                    <div class="sidebar__mode--dark-light">
+                        <i class='sidebar__mode--sun bx bx-sun' ></i>
+                        <i class='sidebar__mode--moon bx bx-moon'></i>
+                    </div>
+                    <span class="sidebar__mode-text">Dark Mode</span>
+                    <div class="sidebar__mode-btn">
+                        <span class="sidebar__mode-switch"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container_header">
+                <div class="container_control">
+                    <i class='bx bx-left-arrow-alt' ></i>
+                    <i class='bx bx-right-arrow-alt' ></i>
+                </div>
+                <div class="container_search">
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search for artist, songs and ..." name="search" id="" class="container_input">
+                </div>
+            </div>
+            <div class="container_slider">
+                <div class="slider_text">
+                    <p class="slider_title">What's hot
+                        <i class='bx bxs-hot'></i>
+                    </p>
+                    <div class="slider_header">
+                        <p class="slider_heading">Trending</p>
+                        <p class="slider_more">More
+                            <i class='bx bx-chevron-right'></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="slider_wrap">
+                    <div class="slider_content">
+                        <div class="slider_info">
+                            <p class="slider_info-title">Artist</p>
+                            <h3 class="slider_info-heading">On Top <br>Of The World</h3>
+                            <a href="#" class="slider_btn slider_btn-play">Play</a>
+                            <a href="#" class="slider_btn slider_btn-follow">Follow</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="container_playlist">
+                <div class="playlist_header">
+                    <p class="playlist_heading">My Playlist</p>
+                    <p class="playlist_showall">Show All</p>
+                </div>
+                <div class="playlist_content">
+                    <p class="playlist_content-head">
+                        <span class="playlist_content-number">#</span>
+                        <span class="playlist_content-title">Title</span>
+                        <span class="playlist_content-artist">Artist</span>
+                        <span class="playlist_content-time">Time</span>
+                        <span class="playlist_content-album">Album</span>
+                    </p>
+                    <ul class="playlist_content-list">
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="container_control-wrap">
+                <div class="container_control-content">
+                    <div class="control_more">
+                        <i class='bx bx-heart'></i>
+                        <i class='bx bx-music'></i>
+                        <i class='bx bx-slider'></i>
+                    </div> 
+                    <div class="control_btn">
+                        <div class="btn btn-repeat">
+                            <i class='bx bx-revision'></i>
+                        </div>
+                        <div class="btn btn-prev">
+                            <i class='bx bx-skip-previous' ></i>
+                        </div>
+                        <div class="btn btn-toggle">
+                            <i class='bx bx-play icon-play'></i>
+                            <i class='bx bx-pause icon-pause'></i>
+                        </div>
+                        <div class="btn btn-next">
+                            <i class='bx bx-skip-next' ></i>
+                        </div>
+                        <div class="btn btn-random">
+                            <i class='bx bx-shuffle'></i>
+                        </div>
+                    </div> 
+                    <div class="control_volume">
+                        <i class='icon-mute bx bxs-volume-mute'></i>
+                        <i class='icon-unmute bx bxs-volume-low'></i>
+                        <input type="range" name="volume" id="volume" min="0" step="1" max="100" value="99" class="volume-input">
+                        <i class='bx bxs-volume-full' ></i>
+                    </div>
+                    <audio id="audio" src=""></audio>
+                </div>
+                <div class="container_progress">
+                    <div class="progress_current-time"></div>
+                    <input type="range" min="0" max="1000" value="0" step="1" name="" id="" class="progress">
+                    <div class="progress_total-time"></div>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar_right">
+            <div class="sidebar_right-shortcuts">
+                <span class="shortcut_heading">Shortcuts</span>
+                <div class="shortcut_list">
+                    <div class="shortcut_item">
+                        <i class='bx bx-cloud-snow'></i>
+                        <span>Chill Hits</span>
+                    </div>
+                    <div class="shortcut_item">
+                        <i class='bx bx-star'></i>
+                        <span>Hop</span>
+                    </div>
+                    <div class="shortcut_item">
+                        <i class='bx bxs-guitar-amp'></i>
+                        <span>Accoustic</span>
+                    </div>
+                    <div class="shortcut_item">
+                        <i class='bx bx-music'></i>
+                        <span>Indie Pop</span>
+                    </div>
+                    <div class="shortcut_item">
+                        <i class='bx bxs-piano'></i>
+                        <span>Piano Blues</span>
+                    </div>
+                    <div class="shortcut_item">
+                        <i class='bx bx-brightness-half'></i>
+                        <span>Jazz</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar_right-artist">
+                <span class="artist_heading">Fav Artist</span>
+                <ul class="artist_list">
+                    <li class="artist_item">
+                        <span class="artist_item-head">
+                            <img src="https://static2.yan.vn/YanNews/2167221/201910/hau-qua-phai-chiu-cua-nhung-nghe-si-viet-khi-ca-khia-son-tung-mtp-4802efb4.jpg" alt="" class="artist_item-img">
+                        </span>
+                        <div class="artist_item-body">
+                            <p class="artist_item-singer">Sơn Tùng M-TP</p>
+                            <p class="artist_item-songs">22 songs in library</p>
+                        </div>
+                        <div class="artist_item-option">
+                            <i class='bx bx-dots-horizontal-rounded'></i>
+                        </div>
+                    </li>
+                    <li class="artist_item">
+                        <span class="artist_item-head">
+                            <img src="https://yt3.ggpht.com/nlDWgA4uOTybHKrOZ6wC-Vf2m1mEg9NFJqfFkDMhRVTOZVmFncgLyMAmHU2DXqdPmIOTysDi=s400-c-k-c0x00ffffff-no-rj" alt="" class="artist_item-img">
+                        </span>
+                        <div class="artist_item-body">
+                            <p class="artist_item-singer">Vũ</p>
+                            <p class="artist_item-songs">16 songs in library</p>
+                        </div>
+                        <div class="artist_item-option">
+                            <i class='bx bx-dots-horizontal-rounded'></i>
+                        </div>
+                    </li>
+                    <li class="artist_item">
+                        <span class="artist_item-head">
+                            <img src="https://photo-resize-zmp3.zadn.vn/w360_r1x1_jpeg/avatars/8/e/3/a/8e3a8a9490794d57c604275b7edfd981.jpg" alt="" class="artist_item-img">
+                        </span>
+                        <div class="artist_item-body">
+                            <p class="artist_item-singer">MCK//Nger</p>
+                            <p class="artist_item-songs">10 songs in library</p>
+                        </div>
+                        <div class="artist_item-option">
+                            <i class='bx bx-dots-horizontal-rounded'></i>
+                        </div>
+                    </li>
+                    <li class="artist_item">
+                        <span class="artist_item-head">
+                            <img src="https://voz.vn/attachments/58803c87550882be56dd9743dcda9657-jpeg.907402/" alt="" class="artist_item-img">
+                        </span>
+                        <div class="artist_item-body">
+                            <p class="artist_item-singer">Obito</p>
+                            <p class="artist_item-songs">12 songs in library</p>
+                        </div>
+                        <div class="artist_item-option">
+                            <i class='bx bx-dots-horizontal-rounded'></i>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="sidebar_right-banner">
+                <div class="banner_wrap">
+                    <img src="https://hinhnen123.com/wp-content/uploads/2021/11/bia-Man-nhan-99-hinh-anh-Rose-Blackpink-cuc-dep-sieu-cuon-hut-12.jpg" alt="" class="banner_img">
+                </div>
+                <div class="banner_body">
+                    <div class="banner_text">
+                        <p class="banner_singer">Rose Blackpink</p>
+                        <p class="banner_desc">Park Chae-young</p>
+                    </div>
+                    <span class="banner_icon">
+                        <i class='bx bx-add-to-queue'></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="./assets/main.js"></script>
+</html>
